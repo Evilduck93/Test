@@ -133,7 +133,7 @@ int main() {
 	std::copy(fig, fig + size, fig1);
 	
 
-	// Создание потоков
+	
 	std::thread t1(bubble_sort, fig, size);
 	std::thread t2(quickSort, fig1, 0, size-1);
 
